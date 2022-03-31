@@ -1,0 +1,91 @@
+/* barre de nav*/
+.nav-item, .nav-item2 {
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+.btn {
+    box-shadow: 4px 4px 4px #a3534d ;
+}
+/* ---------------------- */
+ 
+/* couleur deco nom et texte*/
+#nom {
+    text-align: center;
+    color: white;
+    background-color: #a3534d8a;
+    box-shadow: 4px 4px 4px #6A9DF5 ;
+    border-radius: 25px;
+    border: 1px black solid;
+    font-family: 'Pacifico', cursive;
+    padding: 10px;
+    margin: 10px;
+    font-size: 50px;
+    text-shadow: -3px -3px black, 3px 3px #333
+}
+
+
+h2{
+    color: #6A9DF5;
+    text-shadow: 1px 1px white, -1px -1px #444
+}
+
+p {
+    font-style: italic;
+    margin-left: 5px;
+}
+
+body {
+    text-align: justify;
+    background-color: beige !important;
+}
+
+#accroche {
+    font-size: 15px;
+    font-style: italic;
+    width: 80%;
+    margin-left: 20px;
+    
+}
+
+.titre {
+    padding-bottom: 20px;
+    
+}
+/* ---------------------- */
+
+/* couleur bordure et ombre*/
+.cadre {
+    border: 1px solid black;
+    margin:  20px;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: #a3534d8a;
+    box-shadow: 4px 4px 4px #6A9DF5 ;
+}
+
+.container {
+    border: 2px #6A9DF5 solid;
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px #a3534d ;
+    background-image: linear-gradient();
+}
+
+/* ---------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+

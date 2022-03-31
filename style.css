@@ -1,0 +1,62 @@
+/* barre de nav */
+.nav-item {
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+/* ---------------------- */
+
+/* bordure, ombre et couleurs*/
+body {
+    text-align: justify;  
+    background-color: beige !important;
+}
+ 
+.container {
+    border: 3px solid #94150973;
+    box-shadow: 5px 5px 5px #104D94;
+    border-radius: 15px;
+}
+
+.btn {
+    box-shadow: 3px 3px 3px #104D94;
+}
+/* ---------------------- */
+
+/* espace vide */
+.vide {
+    height: 400px;
+}
+/* ---------------------- */
+
+h1 {
+    padding-left: 25px;
+    padding-top: 15px;
+    text-shadow: 2px 2px 2px #104D94;
+    font-family: 'Special Elite', cursive;
+    text-decoration: underline;
+}
+
+/* carte équipe technique*/
+#carte {
+    padding: 10px;
+}
+
+footer {
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

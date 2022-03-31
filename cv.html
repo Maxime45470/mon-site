@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cv en HTML</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="stylecv.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+ 
+
+<body>
+<!-- barre de nav -->
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a href="index.html" class="btn btn-light btn-lg" tabindex="-1" role="button"
+                aria-disabled="true">Acceuil</a>
+        </li>
+        <li class="nav-item">
+            <a href="cv.html" class="btn btn-light btn-lg" tabindex="-1" role="button" aria-disabled="true">Cv</a>
+        </li>
+        <li class="nav-item2">
+            <button class="btn btn-light btn-lg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                aria-controls="offcanvasTop">Contact</button>
+
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                <div class="offcanvas-header justify-content-center">
+                    <h5 id="offcanvasTopLabel">TRAVAUX EN COURS</h5>
+
+                </div>
+                <div class="offcanvas-body d-flex justify-content-center">
+                    <img src="/assets/travaux.jpg" id="travaux" alt="travaux">
+                </div>
+            </div>
+        </li>
+    </ul>
+<!-- -------------------------------------------------------------------------------- -->
+
+<!-- présentation et adresse-->
+    <div class="container">
+
+        <h1 id="nom">Jean-Maxime</h1>
+
+        <div class="row p-2">
+            <div class="col-sm-12 col-md-6 col-lg-8">
+                <div class="cadre">
+                    <h2 class="titre">Stage Développeur Web</h2>
+                    <p class="titre"  id="accroche">Après 12 ans dans la métallurgie, j'ai appris à travailler en équipe
+                        et à organiser
+                        mon
+                        travail. Je
+                        suis déterminé dans mon changement de vie professionnelle et je mettrais toute mon énergie et ma
+                        soif d'apprendre au sein de votre société.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="cadre">
+                    <p>mdereuder@gmail.com</p>
+                    <p>192 rue de la fosses aux noyers</p>
+                    <p>Né le 19/04/1988</p>
+                    <p>Permis de conduire</p>
+                </div>
+            </div>
+        </div>
+<!-- ---------------------------------------------------------------------------- -->
+
+<!-- langages et atouts -->
+
+        <div class="row p-2">
+            <div class="col-sm-12 col-md-8 col-lg-8">
+                <div class="cadre">
+                    <h2 class="titre">Langages informatiques</h2>
+                    <p>HTML : Validé sur OpenClassrooms</p>
+                    <p>CSS : Validé sur OpenClassrooms</p>
+                    <p>JAVASRIPT : En cour d'apprentissage</p>
+                    <p>PHP : En cours d'apprentissage</p>
+                    <p>SQL : En cours d'apprentissage</p>
+                </div>
+            </div>
+
+
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="cadre">
+                    <h2 class="titre">Atouts</h2>
+                    <p>Persévérant</p>
+                    <p>Curieux</p>
+                    <p>Organisé</p>
+                    <h2>Langues</h2>
+                    <p><strong>Anglais :</strong> compréhension technique</p>
+                </div>
+            </div>
+        </div>
+
+<!-- ---------------------------------------------------------------------------- -->
+       
+       
+<!-- expérience pro-->
+        <div class="row p-2">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="cadre">
+                    <h2 class="titre">Expérience professionnelles</h2>
+                    <p><Strong>Chaudronnier</Strong>/Steel Métal, Loury, France</p>
+                    <p>De janvier 2021 à novembre 2021</p>
+                    <p><strong>Opérateur plieur</strong>/Orléans Laser, Orléans, France</p>
+                    <p>De 2018 à 2020</p>
+                    <p><strong>Opérateur Plieur</strong>/Fabrica, Saint-Cyr-en-Val, France</p>
+                    <p>De 2017 à 2018</p>
+                    <p><strong>Opérateur découpe plasma</strong>/Roger Delattre, Wimille, France</p>
+                    <p>De 2010 à 2015</p>
+                    <p><strong>Maçon</strong>/intérim et stage découverte métier, Marquise, France</p>
+                    <p><strong>Commis de cuisine</strong>/Aux écus de France, Marquise, France</p>
+                    <p>De 2003 à 2006</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+<!-- ---------------------------------------------------------------------------- -->
+
+<!-- diplome et formation-->
+                <div class="cadre">
+                    <h2 class="titre">Diplômes et Formations</h2>
+                    <p><strong>Dévoleppeur web et web mobile</strong></p>
+                    <p>Via Formation, Olivet, France</p>
+                    <p><strong>CAP Cuisine</strong></p>
+                    <p>F2C, Boulogne-sur-mer, France</p>
+                    <p>De 2005 à 2006 / Diplôme non passé</p>
+                    <p><strong>BEPC</strong></p>
+                    <p>Lycée professionnel des 2 Caps, Marquise, France</p>
+                    <p>De 2003 à 2004</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<!-- ---------------------------------------------------------------------------- -->
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+   
+
+
+</body>
+<footer>
+    <address>Créé par Maximuss</address>
+</footer>
+
+</html>
